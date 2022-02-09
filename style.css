@@ -1,0 +1,222 @@
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/woff/IRANSansWeb.woff);
+    src: url(./fonts/woff/IRANSansWeb_Medium.woff);
+}
+body,a,p,h3,h1,h2,h6,h5,h4,strong,span{
+    font-family: myfont;
+}
+a{
+    text-decoration: none;
+}
+.navbar-item-color{
+    color: var(--text-color);
+}
+.icon-nav-seting{
+    color: var(--text-color) !important;
+
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+  } 
+:root{
+    --text-color:#d5d5d5;
+    --text-size:14px;
+}
+p,h3,h1,h2,h6,h5,h4,strong,span{
+    color: var(--text-color);
+}
+.min{
+    background-image: url("./image/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.info-box{
+    background-color: #222222;
+    border-radius: 25px;
+    padding: 25px 25px 15px 25px;
+    height: auto;
+    width: 85%;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+   
+}
+.logo a{
+    color: var(--text-color);
+
+}
+.logo a span{
+    background-color: #007ced;
+    color: var(--text-color);
+    font-size: 28px;
+    font-weight: 7800;
+    padding: 11px 23px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.menu ul{
+    padding: 15px;
+}
+.menu ul li{
+    padding: 5px 10px;
+}
+.menu ul li a{
+    color: var(--text-color);
+    padding: 5px 7px;
+}
+.home-content{
+    margin-top: 10%;
+}
+.profile-bg{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: #444444;
+    padding: 10px;
+    position: relative;
+
+}
+.profile{
+    position: absolute;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    object-position: top;
+ 
+
+}
+.button{
+    border-radius: 25px;
+    margin: 5px;
+}
+.profile-name{
+    color: #f5f5f5;
+    padding: 10px 0px;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    width: 0px !important;
+}
+.slider-item{
+    color: #d5d5d5;
+    font-weight: 600 !important;
+    font-size: 18px;
+}
+.icon-seting{
+    color:#007ced !important;
+    font-size: 32px !important;
+}
+.jobs-box{
+    margin-top: 5%;
+}
+.job-header,.comments-header,.clients-header,.fact-header,.pricing-header{
+    position: relative;
+    padding: 5px;
+   display: inline-block;
+}
+.job-header h4::after,.comments-header::after,.clients-header::after,.fact-header::after,.pricing-header::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 30px;
+    background-color: #007ced;
+    height: 2px;
+    bottom: 0;
+}
+.job-header h4::before,.comments-header::before,.clients-header::before,.fact-header::before,.pricing-header::before{
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    background-color: #353535;
+    height: 2px;
+    bottom: 0;
+}
+.jobs-description p,.profile-description{
+    font-size: 13px;
+}
+
+.comment-box{
+    display: inline-block;
+}
+.comment-box img{
+    border-radius: 50%;
+    border-color: #444;
+    position: absolute;
+    width: 80px;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+.comment-box{
+    position: relative;
+    padding: 4%;
+    background-color: #282828;
+    border-radius: 8px;
+    border: 2px solid #444;
+    z-index: 1;
+    margin: 5px;
+}
+.comment-text{
+    margin: 15px 15px 0 0;
+    padding: 5px;
+    display: block;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: flex !important;
+    justify-content: space-between;
+}
+.comment-text p{
+    color: var(--text-color);
+    font-size: 13px;
+}
+.clients{
+    margin-top: 10%;
+}
+.icon-quote{
+    font-size: 36px;
+    color: rgb(195, 195, 195);
+}
+.carousel-indicators{
+    top: 100%;
+}
+.fact,.pricing,footer{
+    margin-top: 15%;
+}
+.fact-box{
+    position: relative;
+    padding: 10%;
+    background-color: #282828;
+    border-radius: 8px;
+    border: 2px solid #444;
+    transition: transform .2s;
+}
+.fact-box:hover{
+    transform: scale(1.05);
+}
+.pricing-box{
+    position: relative;
+    padding: 2%;
+    background-color: #282828;
+    border-radius: 8px;
+    border: 2px solid #444;
+}
+.pricing-box:hover{
+
+background: #282828;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+transform: scale(1.1);
+}
+footer{
+    border-top: 1px solid #282828;
+    padding: 5px;
+}
